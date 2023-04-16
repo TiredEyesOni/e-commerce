@@ -9,7 +9,7 @@ const TrendingSlider = () => {
 
   const slideRight = () => {
     let slider = document.getElementById("slider");
-    slider.scrollRight += 235;
+    slider.scrollLeft += 235;
   };
 
   return (
