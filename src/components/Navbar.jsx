@@ -45,15 +45,21 @@ function Navbar() {
           className="fa-sharp fa-solid fa-xmark"
         ></i>
         <div className="mobile-links">
-          <Link onClick={() => setMobileNav(!mobileNav)} to="/categories/all">
+          <Link
+            onClick={() => setMobileNav(!mobileNav)}
+            to="/e-commerce/categories/all"
+          >
             categories
           </Link>
-          <Link onClick={() => setMobileNav(!mobileNav)} to="/categories/lamps">
+          <Link
+            onClick={() => setMobileNav(!mobileNav)}
+            to="/e-commerce/categories/lamps"
+          >
             lamps
           </Link>
           <Link
             onClick={() => setMobileNav(!mobileNav)}
-            to="/categories/product/19"
+            to="/e-commerce/categories/product/19"
           >
             product page
           </Link>
@@ -87,7 +93,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="container">
           <div className={`nav-container ${sticky ? "cont-sticky" : ""}`}>
-            <Link to="/">
+            <Link to="/e-commerce/">
               <img
                 onClick={scrollToTop}
                 src={LogoImg2}
@@ -96,12 +102,15 @@ function Navbar() {
               />
             </Link>
             <div className="nav-links">
-              <Link onClick={() => window.scrollTo(0, 0)} to="/categories/all">
+              <Link
+                onClick={() => window.scrollTo(0, 0)}
+                to="/e-commerce/categories/all"
+              >
                 categories
               </Link>
               <Link
                 onClick={() => window.scrollTo(0, 0)}
-                to="/categories/product/19"
+                to="/e-commerce/categories/product/19"
               >
                 product page
               </Link>

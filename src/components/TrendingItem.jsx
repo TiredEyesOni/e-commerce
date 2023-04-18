@@ -11,14 +11,14 @@ const TrendingItem = () => {
         <div key={item.id} className="row-item">
           <Link
             onClick={() => window.top(0, 0)}
-            to={`/categories/products/${item.id}`}
+            to={`/e-commerce/categories/product/${item.id}`}
           >
             <div className="item-header">
               <img src={item.img} alt="product" />
             </div>
             <div className="item-description">
               <p>{item.description}</p>
-              <p className="item-price">{item.price}</p>
+              <p className="item-price">{item.price}$</p>
             </div>
           </Link>
         </div>

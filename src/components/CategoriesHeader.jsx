@@ -19,29 +19,32 @@ function CategoriesHeader() {
             <h3>{btnName}</h3>
           </div>
           <div className="filter-btns">
-            <Link to="all" onClick={() => handleBtnName("all")}>
+            <Link
+              to="/e-commerce/categories/all"
+              onClick={() => handleBtnName("all")}
+            >
               <button>All</button>
             </Link>
-            <Link to="furnitures">
+            <Link to="/e-commerce/categories/furniture">
               <button onClick={() => handleBtnName("furnitures")}>
                 Furnitures
               </button>
             </Link>
-            <Link to="electronics">
+            <Link to="/e-commerce/categories/electronics">
               <button onClick={() => handleBtnName("electronics")}>
                 Electronics
               </button>
             </Link>
-            <Link to="lamps">
+            <Link to="/e-commerce/categories/lamps">
               <button onClick={() => handleBtnName("lamps")}>Lamps</button>
             </Link>
-            <Link to="kitchen">
+            <Link to="/e-commerce/categories/kitchen">
               <button onClick={() => handleBtnName("kitchen")}>Kitchen</button>
             </Link>
-            <Link to="chairs">
+            <Link to="/e-commerce/categories/chairs">
               <button onClick={() => handleBtnName("chairs")}>Chairs</button>
             </Link>
-            <Link to="skin-care">
+            <Link to="/e-commerce/categories/skincare">
               <button onClick={() => handleBtnName("skin care")}>
                 Skin Care
               </button>

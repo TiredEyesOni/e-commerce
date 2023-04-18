@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 import "../styles/productPage.css";
-import { items } from "../components/AllData";
+import { items } from "../components/allData";
 import TrendingSlider from "../components/TrendingSlider";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
@@ -55,7 +55,6 @@ function ProductPage() {
       <div className="product-page-div">
         <div className="container">
           <div className="product-div">
-            <h3 className="product-big-name">{item[0].description}</h3>
             <div className="product-left">
               <div className="big-img">
                 <img src={image} alt="product" />
@@ -79,6 +78,7 @@ function ProductPage() {
               </div>
             </div>
             <div className="product-right">
+              <h3 className="product-big-name">{item[0].description}</h3>
               <p className="product-spec">{item[0].specs}</p>
               <div className="product-quant">
                 <p>Quantity</p>

@@ -11,11 +11,7 @@
 }
 
 .product-big-name {
-  position: absolute;
   font-size: 3.5rem;
-  top: 8px;
-  left: 50%;
-  transform: translate(-50%);
 }
 
 .product-left {
@@ -66,7 +62,7 @@
   width: 50%;
   height: 100%;
   background-color: #e5e5e5;
-  padding: 16rem 5rem 8rem 5rem;
+  padding: 8rem 5rem 8rem 5rem;
 }
 
 .product-spec {
