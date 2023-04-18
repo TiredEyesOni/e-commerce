@@ -14,14 +14,15 @@ Live Demo: <a href="https://tiredeyesoni.github.io/e-commerce/">E-commerce Demo<
 
 # Screenshots
 
-<p align="center">Home Page</p>
-![image](https://user-images.githubusercontent.com/49983529/232766973-bf8678e2-91fd-4e53-8b01-de6c39de9e11.png)
+<h3 align="center">Home Page</h3>
 
-<p align="center">Categories Page</p>
-![image](https://user-images.githubusercontent.com/49983529/232767144-a39eadc3-cf53-40db-8f20-52f4ef11144f.png)
+![image](https://user-images.githubusercontent.com/49983529/232768655-409afcb1-64a7-417f-93b4-ce6f1befb26f.png)
 
-<p align="center">Products Page</p>
-![image](https://user-images.githubusercontent.com/49983529/232767210-9fde0dc0-e4cd-4c2b-966c-37d2325aff13.png)
+<h3 align="center">Categories Page</h3>
+![image](https://user-images.githubusercontent.com/49983529/232768921-1643e949-8507-4c25-8461-6f161fed26c2.png)
 
-<p align="center">Shopping Cart</p>
-![image](https://user-images.githubusercontent.com/49983529/232767291-dcca08a5-01f0-4870-a269-524e0b3481bf.png)
+
+
+<h3 align="center">Product Page</h3>
+
+<h3 align="center">Shopping Cart</h3>
