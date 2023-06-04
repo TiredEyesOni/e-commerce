@@ -45,21 +45,15 @@ function Navbar() {
           className="fa-sharp fa-solid fa-xmark"
         ></i>
         <div className="mobile-links">
-          <Link
-            onClick={() => setMobileNav(!mobileNav)}
-            to="/e-commerce/categories/all"
-          >
+          <Link onClick={() => setMobileNav(!mobileNav)} to="/categories/all">
             categories
           </Link>
-          <Link
-            onClick={() => setMobileNav(!mobileNav)}
-            to="/e-commerce/categories/lamps"
-          >
+          <Link onClick={() => setMobileNav(!mobileNav)} to="/categories/lamps">
             lamps
           </Link>
           <Link
             onClick={() => setMobileNav(!mobileNav)}
-            to="/e-commerce/categories/product/19"
+            to="/categories/product/19"
           >
             product page
           </Link>
@@ -104,13 +98,13 @@ function Navbar() {
             <div className="nav-links">
               <Link
                 onClick={() => window.scrollTo(0, 0)}
-                to="/e-commerce/categories/all"
+                to="/categories/all"
               >
                 categories
               </Link>
               <Link
                 onClick={() => window.scrollTo(0, 0)}
-                to="/e-commerce/categories/product/19"
+                to="/categories/product/19"
               >
                 product page
               </Link>

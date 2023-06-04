@@ -11,7 +11,7 @@ const CategoriesItem = () => {
               <div className="product normal" key={item.id}>
                 <Link
                   onClick={() => window.top(0, 0)}
-                  to={`/e-commerce/categories/product/${item.id}`}
+                  to={`/categories/product/${item.id}`}
                 >
                   <div className="product-header">
                     <img src={item.img} alt="product1" />

@@ -10,10 +10,7 @@ const Banner = ({ title, text, img }) => {
             <div className="text">
               <h2>{title}</h2>
               <p>{text}</p>
-              <Link
-                onClick={() => window.scrollTo(0, 0)}
-                to="e-commerce/categories/all"
-              >
+              <Link onClick={() => window.scrollTo(0, 0)} to="/categories/all">
                 <button>Shop now</button>
               </Link>
             </div>

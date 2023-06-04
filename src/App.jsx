@@ -35,29 +35,17 @@ function App() {
       <Routes>
         <Route index path="/e-commerce/" element={<Home />} />
 
-        <Route path="/e-commerce/categories" element={<Categories />}>
-          <Route path="/e-commerce/categories/all" element={<All />} />
-          <Route
-            path="/e-commerce/categories/furniture"
-            element={<Furniture />}
-          />
-          <Route
-            path="/e-commerce/categories/electronics"
-            element={<Electronics />}
-          />
-          <Route path="/e-commerce/categories/lamps" element={<Lamps />} />
-          <Route path="/e-commerce/categories/kitchen" element={<Kitchen />} />
-          <Route path="/e-commerce/categories/chairs" element={<Chairs />} />
-          <Route
-            path="/e-commerce/categories/skincare"
-            element={<Skincare />}
-          />
+        <Route path="/categories" element={<Categories />}>
+          <Route path="/categories/all" element={<All />} />
+          <Route path="/categories/furniture" element={<Furniture />} />
+          <Route path="/categories/electronics" element={<Electronics />} />
+          <Route path="/categories/lamps" element={<Lamps />} />
+          <Route path="/categories/kitchen" element={<Kitchen />} />
+          <Route path="/categories/chairs" element={<Chairs />} />
+          <Route path="/categories/skincare" element={<Skincare />} />
         </Route>
 
-        <Route
-          path="/e-commerce/categories/product/:id"
-          element={<ProductPage />}
-        />
+        <Route path="/categories/product/:id" element={<ProductPage />} />
       </Routes>
     </CartContext.Provider>
   );

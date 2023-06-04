@@ -11,7 +11,7 @@ const TrendingItem = () => {
         <div key={item.id} className="row-item">
           <Link
             onClick={() => window.top(0, 0)}
-            to={`/e-commerce/categories/product/${item.id}`}
+            to={`/categories/product/${item.id}`}
           >
             <div className="item-header">
               <img src={item.img} alt="product" />
